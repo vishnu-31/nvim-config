@@ -28,6 +28,7 @@ vim.opt.rtp:prepend(lazypath)
 -- NOTE: Here is where you install your plugins.
 require('lazy').setup({
   -- start of custom plugins
+  require 'vishnu.plugins.tokyonight',
   { import = 'vishnu.plugins' },
 }, {
   ui = {
